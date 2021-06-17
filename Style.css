@@ -1,0 +1,273 @@
+
+/*fonte Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body { /*body config*/
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #e1e8f7;
+}
+
+ul { /*nave bar*/
+    list-style: none;
+}
+
+a { /*config letra nave bar*/
+    text-decoration: none;
+    color: inherit;
+}
+
+button { /*botão config*/
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #1D61DD;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header nav { 
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+.header-image{
+    width: 250px;
+    height: 200px;  
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.header-h1{
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 2rem;
+}
+
+  .carousel-inner img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.logo{
+    border-radius: 20px;
+}
+
+
+.produtos {
+    background: #e1e8f7;
+    
+    padding: 15px;
+}
+
+.produtos .produtos-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produtos .produtos-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.produtos .card {
+    width: 250px;
+    height: 450px;
+    background: white;
+    border-radius: 24px 0px;
+    margin: 20px;
+    position: relative;
+}
+
+.produtos .card-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.produtos .card-content {
+    padding: 0 15px;
+}
+
+.produtos .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.produtos .card-content ul li {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.produtos .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.produtos .card-content h1 {
+    font-size: 1rem;
+}
+
+.produtos .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #3e61fc;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.produtos .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 190px;
+    background: #1D61DD;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.produtos .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.servicos {
+    padding: 15px;
+}
+
+.servicos .servicos-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.servicos .servicos-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    transition: all 1s;
+}
+
+.servicos .card svg:hover {
+    stroke: #1D61DD;
+    transform: scale(1.1);
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+}
+
+.servicos .card p {
+    color: grey;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
+}
+
+.servicos button {
+    background: #1D61DD;
+}
+
+.contato {
+    padding: 60px; 
+    background: #e1e8f7;
+    position: relative;
+    
+}
+
+.contato .contato-card {
+    width: 400px;
+    height: 350px;
+    background: white;
+    z-index: 99;
+    margin-left: 175px;
+
+    border-radius: 8px;
+
+    top: calc(50% - 150px);
+    left: calc(20% - 175px);
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+
+.contato .contato-card h1 {
+    padding-left: 50px;
+    text-align: left;
+}
+
+.contato .contato-card li {
+    font-size: .8rem;
+    font-weight: bold;
+    color: grey;
+    
+    display: flex;
+    align-items: center;
+}
+
+.contato .contato-card li svg {
+    width: 16px;
+    margin: 10px;
+}
+
